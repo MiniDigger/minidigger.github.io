@@ -1,2 +1,6 @@
 _site/
+<<<<<<< HEAD
 .sass-cache/
+=======
+.sass-cache/
+>>>>>>> origin/master
