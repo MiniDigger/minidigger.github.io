@@ -1,2 +1,2 @@
-MiniDigger.github.io
+minidigger.github.io
 ====================
