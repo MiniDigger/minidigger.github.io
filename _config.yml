@@ -1,4 +1,5 @@
 name: MiniDigger.me
-markdown: redcarpet
+markdown: maruku
 pygments: false
 save: false
+category-list: [releases, news, wiki, random]

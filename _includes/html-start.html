@@ -3,10 +3,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MiniDigger.me | Welcome</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/boxflip.css" />
-		<link rel="stylesheet" href="css/font-awesome.min.css" />
-    <script src="js/vendor/modernizr.js"></script>
+    <style type="text/css">
+    {% include css/foundation.css %}
+    {% include css/boxflip.css %}
+		{% include css/font-awesome.min.css %}
+    </style>
+    <script> 
+    {% include js/vendor/modernizr.js %}
+    {% include js/vendor/jquery.js %}   
+    {% include js/contentcreator.js %}
+    </script>
   </head>
 	<body style="background-color: black">
 		<!-- Placeholder -->

@@ -1,7 +1,10 @@
 		<!-- la js -->
-    <script src="js/vendor/jquery.js"></script>
-		<script src="js/foundation.min.js"></script>
-		<script src="js/foundation/foundation.joyride.js"></script>
+    <script>
+		{% include js/foundation.min.js %}
+		{% include js/foundation/foundation.joyride.js %}
+    {% include js/togglebox.js %}
+    </script>
+    </script>
     <!-- fondation -->
 		<script>
 			$(document).foundation();
