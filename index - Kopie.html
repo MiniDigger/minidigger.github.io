@@ -1,0 +1,336 @@
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiniDigger.me | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/boxflip.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+	<body style="background-color: black">
+		<!-- Placeholder -->
+		<div class="row" id="placeholder" style="height:5%"></div>
+		<!-- /Placeholder -->
+	
+		<!-- Header -->
+    <div class="row" id="header"  style="height:16%">
+			<div class="large-6 columns" style="padding:5px">
+				<div class="box" id="card-1" onclick="toggleBox('card-1')">
+					<div class="box-front" id="card-1f" style="background-color: red">
+						<h1>1f</h1>
+					</div>
+					<div class="box-back" id="card-1b" style="background-color: blue">
+						1b
+					</div>   
+				</div>
+			</div>
+			<div class="large-6 columns" style="padding:0px">
+				<div class="row" style="height:50%; margin:0px; padding:5px; margin-bottom:5px; padding-bottom:0px">
+					<div class="box" id="card-2" onclick="toggleBox('card-2')">
+						<div class="box-front" id="card-2f" style="background-color: red; line-height:50%">
+							Search
+						</div>
+						<div class="box-back-inv" id="card-2b" style="background-color: blue">
+							<div class="small-9 columns">
+				          <input type="text" placeholder="small-9.columns">
+				      </div>
+							<div class="small-3 columns">
+				         <span class="postfix"><i class="fa-adjust"></span>
+				      </div>
+						</div>   
+					</div>
+				</div>
+				<div class="row" style="height:50%; margin:0px; padding:5px; margin-bottom:5px; padding-bottom:0px">
+					<div class="box" id="card-3" onclick="toggleBox('card-3')">
+						<div class="box-front" id="card-3f" style="background-color: red">
+							<h1>3f</h1>
+						</div>
+						<div class="box-back-inv" id="card-3b" style="background-color: blue">
+							3b
+						</div>   
+					</div>
+				</div>
+			</div>    
+      </div>      
+		</div>
+		<!-- /Header -->
+	
+		<!-- Nav -->
+		<div class="row" id="nav" style="height:7%">
+			<div class="small-2 columns" style="padding:5px">
+				<div class="box" id="card-4" onclick="toggleBox('card-4')">
+					<div class="box-front" id="card-4f" style="background-color: darkkhaki">
+						<h2>4f</h2>
+					</div>
+					<div class="box-back-top" id="card-4b" style="background-color: yellow">
+						4b
+					</div>   
+				</div>
+			</div>
+			<div class="small-3 columns" style="padding:5px">
+				<div class="box" id="card-5" onclick="toggleBox('card-5')">
+					<div class="box-front" id="card-5f" style="background-color: darkkhaki">
+						<h2>5f</h2>
+					</div>
+					<div class="box-back-top" id="card-5b" style="background-color: yellow">
+						5b
+					</div>   
+				</div>
+			</div>
+			<div class="small-2 columns" style="padding:5px">
+				<div class="box" id="card-6" onclick="toggleBox('card-6')">
+					<div class="box-front" id="card-6f" style="background-color: darkkhaki">
+						<h2>6f</h2>
+					</div>
+					<div class="box-back-top" id="card-6b" style="background-color: yellow">
+						6b
+					</div>   
+				</div>
+			</div>
+			<div class="small-3 columns" style="padding:5px">
+				<div class="box" id="card-7" onclick="toggleBox('card-7')">
+					<div class="box-front" id="card-7f" style="background-color: darkkhaki">
+						<h2>7f</h2>
+					</div>
+					<div class="box-back-top" id="card-7b" style="background-color: yellow">
+						7b
+					</div>   
+				</div>
+			</div>
+			<div class="small-2 columns" style="padding:5px">
+				<div class="box" id="card-8" onclick="toggleBox('card-8')">
+					<div class="box-front" id="card-8f" style="background-color: darkkhaki">
+						<h2>8f</h2>
+					</div>
+					<div class="box-back-top" id="card-8b" style="background-color: yellow">
+						8b
+					</div>   
+				</div>
+			</div>
+		</div>
+		<!-- /Nav -->
+		
+		<!-- Breadcrumbs -->
+		<div class="row" id="breadcrumbs" style="height:7%">
+			<div class="large-2 columns" style="padding:5px">
+				<div class="box" id="card-9" onclick="toggleBox('card-9')">
+					<div class="box-front" id="card-9f" style="background-color: orange">
+						<h2>HELP</h2>
+					</div>
+					<div class="box-back-top" id="card-9b" style="background-color: teal">
+						<button class="button small" onclick="$(document).foundation('joyride', 'start');">Start a Tour</button>
+					</div>   
+				</div>
+			</div>
+			<div class="large-10 columns" style="padding:5px">
+				<div class="box" id="card-10" onclick="toggleBox('card-10')">
+					<div class="box-front" id="card-10f" style="background-color: orange">
+						<h4>Breadcrumbs</h4>
+					</div>
+					<div class="box-back-top-inv" id="card-10b" style="background-color: teal">
+						<nav class="breadcrumbs" style="height:100%">
+							<a href="#">Home</a>
+							<a href="#">Features</a>
+							<a class="unavailable" href="#">Gene Splicing</a>
+							<a class="current" href="#">Cloning</a>
+						</nav>
+					</div>   
+				</div>
+			</div>
+		</div>
+		<!-- /Breadcrumbs -->
+		
+		<!-- content -->
+		<div class="row" id="content">
+			
+		</div>
+		<!-- /content -->
+		
+		<!-- footer -->
+		<div class="row" id="footer" style="height:7%">
+			<div class="large-6 columns" style="padding:5px">
+				<div class="box" id="card-11" onclick="toggleBox('card-11')">
+					<div class="box-front" id="card-11f" style="background-color: green">
+						<h2>11f</h2>
+					</div>
+					<div class="box-back" id="card-11b" style="background-color: gray">
+						11b
+					</div>   
+				</div>
+			</div>
+			<div class="large-6 columns" style="padding:5px">
+				<div class="box" id="card-12" onclick="toggleBox('card-12')">
+					<div class="box-front" id="card-12f" style="background-color: green">
+						<h2>12f</h2>
+					</div>
+					<div class="box-back-inv" id="card-12b" style="background-color: gray">
+							12b
+					</div>   
+				</div>
+			</div>
+		</div>
+		<!-- /footer -->
+	
+		<!-- Placeholder -->
+		<div class="row" style="height:2.5%"></div>
+		<!-- /Placeholder -->
+	
+		<!-- Joyride -->
+		<ol class="joyride-list" data-joyride>
+			<li data-text="Next">
+				<h4>HELLO.</h4>
+				<p>Hello and welcome to the Help-Tour</p>
+			</li>
+			<li data-id="header" >
+				<h4>Boxes</h4>
+				<p>You can flip this boxes by pressing them!</p>
+			</li>
+			<li data-id="nav" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
+				<h4>Navigation</h4>
+				<p>Use these boxes to navigate thru my site</p>
+			</li>
+			<li data-button="End">
+				<h4>Stop #3</h4>
+				<p>It works as a modal too!</p>
+			</li>
+		</ol>
+	
+		<!-- la js -->
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/foundation.min.js"></script>
+		<script src="js/foundation/foundation.joyride.js"></script>
+		<!-- toggle to flip boxes -->
+		<script>
+			function toggleBox(id){
+				var f = document.querySelector('#' + id + 'f');
+				var b = document.querySelector('#' + id + 'b');
+			
+				if(b.classList.contains('box-back')){
+					f.classList.toggle('box-front-toggle');
+					b.classList.toggle('box-back-toggle');
+				} else if(b.classList.contains('box-back-inv')){
+					f.classList.toggle('box-front-inv-toggle');
+					b.classList.toggle('box-back-inv-toggle');
+				} else if(b.classList.contains('box-back-top')){
+					f.classList.toggle('box-front-top-toggle');
+					b.classList.toggle('box-back-top-toggle');
+				} else if(b.classList.contains('box-back-top-inv')){
+					f.classList.toggle('box-front-top-inv-toggle');
+					b.classList.toggle('box-back-top-inv-toggle');
+				} 
+			}
+		</script>
+		<!-- content producer -->
+		<script>
+			var id = 14;
+			var front = document.querySelector('#content');
+			
+			var numCatRow = 4;
+			var catCardBegin = id;
+			var catContent = "";
+			var b = 1;
+			for(var i = 0;i<numCatRow;i++){
+				catContent+=createRow(10,createBox('card-' +id,'background-color:pink','background-color:purple',"-top"),b);
+				if(b==1){
+					b=2;
+				}else{
+					b=1;
+				}
+				id++;
+			}
+			
+			var numContentRow = 2;
+			var contentCardBegin = id;
+			var contentContent = createBlock(2,catContent,true) + "";
+			var type = 0;
+			
+			for(var i = 0;i<numContentRow;i++){
+				var one = createBox('card-' + id,'background-color:pink','background-color:purple',"");
+				id++;
+				var two = createBox('card-' + id,'background-color:pink','background-color:purple',"-inv");
+				id++;
+			
+				var size1 = 0;
+				var size2 = 0;
+				switch(type){
+					case 0:
+						size1 = 4;
+						size2 = 6;
+						break;
+					case 1:
+						size1 = 7;
+						size2 = 3;
+						break;
+					case 2:
+						size1 = 6;
+						size2 = 4;
+						break;
+					case 3:
+						size1 = 3;
+						size2 = 7;
+						type = 0;
+						break;
+					default:
+						type = 0;
+						size1 = 6;
+						size2 = 4;
+						break;
+				}
+				type++;
+			
+				contentContent+=createRow(20,createBlock(size1,one,false) + createBlock(size2,two,false),0);
+			}
+			
+			front.innerHTML = contentContent;
+			
+			for(var i = 0;i<numCatRow;i++){
+				var card = document.querySelector("#card-"+(catCardBegin+i)+"f");
+				card.innerHTML = "<h3>"+(catCardBegin+i)+"f</h3>";
+				
+				card = document.querySelector("#card-"+(catCardBegin+i)+"b");
+				card.innerHTML = "<h3>"+(catCardBegin+i)+"b</h3>";
+			}
+			
+			for(var i = 0;i<(numContentRow*2);i++){
+				var card = document.querySelector("#card-"+(contentCardBegin+i)+"f");
+				card.innerHTML = "<h3>"+(contentCardBegin+i)+"f</h3>";
+				
+				card = document.querySelector("#card-"+(contentCardBegin+i)+"b");
+				card.innerHTML = "<h3>"+(contentCardBegin+i)+"b</h3>";
+			}
+			
+			function createBox(id,frontStyle,backStyle,boxStyle){
+				return "<div class='box' id='"+id+"' onclick=toggleBox('"+id+"') style='visibility: visible'>" + 
+									"<div class='box-front' id='"+id+"f' style='"+frontStyle+"'>" +
+									"</div>" +
+									"<div class='box-back"+boxStyle+"' id='"+id+"b' style='"+backStyle+"'>" + 		
+									"</div>"+   
+								"</div>";
+			}
+			
+			function createRow(height,content,cat){
+				if(cat == 1){
+					return "<div class='row' style='height:"+height+"%; padding:5px; margin:0px; padding-bottom:0px'>"+content+"</div>";
+				}else if(cat == 2){
+					return "<div class='row' style='height:"+height+"%; padding:5px; margin:0px; margin-bottom:5px;margin-top:5px; padding-bottom:0px'>"+content+"</div>";
+				}else{
+					return "<div class='row' style='height:"+height+"%; margin:0px'>"+content+"</div>";
+				}
+			}
+			
+			function createBlock(size,content,cat){
+				if(cat){
+					return "<div class='large-"+size+" columns' style='padding:0px; visibility:visible'>"+content+"</div>";
+				}else{
+					return "<div class='large-"+size+" columns' style='padding:5px; visibility:visible'>"+content+"</div>";
+				}
+			}
+		</script>
+		<!-- fondation -->
+		<script>
+			$(document).foundation();
+        //.foundation('joyride', 'start');
+		</script>
+ </body>
+</html>
